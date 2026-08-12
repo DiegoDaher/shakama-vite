@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-grow">
         <Hero />
@@ -16,6 +16,6 @@ export default function App() {
         <Testimonials />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
